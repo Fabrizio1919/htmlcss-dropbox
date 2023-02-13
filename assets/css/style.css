@@ -115,7 +115,20 @@ display: flex;
 
 }
 
+.row-card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+}
 
+
+.col5{
+    width: calc(100% / 12 * 4);
+    padding: 0.5rem;
+    background-color: orange;
+    height: 500px;
+    border: 2px dashed black;
+}
 
 
 
