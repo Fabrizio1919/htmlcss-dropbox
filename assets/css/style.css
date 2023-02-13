@@ -85,6 +85,7 @@ display: flex;
     background-color: var(--db-btn);
     width: 100%;
     height: 500px;
+    
 }
 
 .row {
@@ -94,7 +95,10 @@ display: flex;
 
 
 .col-4 {
-    width: calc(100%/4);
+    width: calc(100%/12 * 4);
+    background-color: red;
+    height: 500px;
+    border: 1px dashed;
 }
 
 
