@@ -8,6 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* utiliy */
 .container {
     width: 70%;
     max-width: 1152px;
@@ -30,7 +31,7 @@ body {
     --db-btn : #0061ff;
 }
 
- 
+ /* ./endutility */
 
 
 
@@ -84,7 +85,7 @@ display: flex;
 .plans {
     background-color: var(--db-btn);
     width: 100%;
-    height: 500px;
+    padding: 1rem 0;
     
 }
 
@@ -100,6 +101,24 @@ display: flex;
     height: 500px;
     border: 1px dashed;
 }
+
+.col-12 {
+    background-color: orange;
+    height: 200px;
+    border: 2px dashed black;
+}
+
+.partner {
+    background-color: var(--db-btn);
+    width: 100%;
+    padding: 1rem 0;
+
+}
+
+
+
+
+
 
 
 
