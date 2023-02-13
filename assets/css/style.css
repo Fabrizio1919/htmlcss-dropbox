@@ -130,6 +130,17 @@ display: flex;
     border: 2px dashed black;
 }
 
+.team{
+    padding: 1rem 0;
+    background-color: #b4d0e7;
+}
+
+
+.teams{
+    background-color: red;
+    width: 100%;
+    height: 500px;
+}
 
 
 
