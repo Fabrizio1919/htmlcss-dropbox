@@ -158,6 +158,37 @@ body {
     height: 500px;
 }
 
+.teams-group {
+width: 100%;
+height: 500px;
+background-color: rgb(127, 138, 255);
+padding: 1rem 0;
+}
+
+
+
+.row-teams {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(128, 0, 51);
+}
+
+.image-left {
+    width: 33%;
+    background-color: aquamarine;
+    border: 2px dashed black;
+}
+.image-center {
+    width: 34%;
+    background-color: #0061ff;
+    border: 2px dashed black;
+}
+.image-right {
+    width:33%;
+    background-color: rgb(7, 39, 28);
+    border: 2px dashed black;
+}
+
 
 
 
