@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 70%;
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+
+:root {
+    --db-palet : #b4d0e7;
+    --db-dark : #000000;
+    --db-light : #ffffff;
+    --db-btn : #0061ff;
+}
+
+ 
+
+
+
+
+
+
+
+
+/*Header */
+
+
+
+
+
+
+/*./endHeader */
