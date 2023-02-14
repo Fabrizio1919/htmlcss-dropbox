@@ -71,6 +71,21 @@ ul li {
     --db-btn: #0061ff;
 }
 
+.designt{
+    background: #a2d39b;
+}
+
+.arizona {
+    background: #61082b;
+}
+
+.florida {
+    background: #0093ce;
+}
+
+.topps {
+    background: #ff1c1c;
+}
 /* ./endutility */
 
 
@@ -275,7 +290,7 @@ ul li {
 width: 100%;
  /* DEBUG */
 height: 500px;
-background-color: rgb(127, 138, 255);
+/* background-color: rgb(127, 138, 255); */
 padding: 1rem 0;
 }
 
