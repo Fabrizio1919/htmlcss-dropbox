@@ -289,9 +289,9 @@ ul li {
 .teams-group {
 width: 100%;
  /* DEBUG */
-height: 500px;
+/* height: 500px; */
 /* background-color: rgb(127, 138, 255); */
-padding: 1rem 0;
+/* padding: 1rem 0; */
 }
 
 .row-teams {
