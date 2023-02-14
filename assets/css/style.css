@@ -23,6 +23,43 @@ body {
     flex-wrap: wrap;
 }
 
+.w-60 {
+width: 60%;
+}
+
+.w-40 {
+    width: 40%;
+}
+.mg-top {
+    margin-top: 50px;
+}
+.mg-right {
+    margin-right: 10px;
+}
+.mg-bottom {
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 62px;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 35px;
+}
+
+.btn-sm {
+    background-color: var(--db-btn);
+    color: white;
+    border: none;
+    padding: 5px 5px;
+}
 
 :root {
     --db-palet: #b4d0e7;
@@ -52,19 +89,21 @@ body {
 .left-nav {
     width: 50%;
     text-align: left;
+    padding: 1rem;
     /* DEBUG */
-    background-color: orange;
-    border: 2px dashed black;
-    padding: 1.5rem;
+    /* background-color: orange; */
+   /*  border: 2px dashed black; */
 }
+
+
 
 .right-nav {
     width: 50%;
     text-align: right;
+    padding: 1rem;
     /* DEBUG */
-    background-color: orange;
-    border: 2px dashed black;
-    padding: 1.5rem;
+    /* background-color: orange;
+    border: 2px dashed black; */
 }
 
 /*./endHeader */
@@ -72,41 +111,43 @@ body {
 
 /* Main */
 .utility-work {
-    width: 100%;
-    /* DEBUG */
     height: 550px;
     padding: 1rem;
-
-    background-color: lightskyblue;
+    background-color: var(--db-palet);
 }
+
+.img-jumbo img{
+    width: 765px;
+}
+
 
 .col {
     width: 100%;
     /* DEBUG */
-    height: 500px;
-    background-color: green;
+   /*  height: 500px;
+    background-color: green; */
 }
 
 .plans {
     width: 100%;
-    padding: 1rem 0;
+    padding: 8rem 0;
     /* DEBUG */
-    background-color: var(--db-btn);
+   /*  background-color: var(--db-btn); */
 
 }
 
 .row {
     width: 100%;
     /* DEBUG */
-    background-color: red;
+    /* background-color: red; */
 }
 
 
 .col-4 {
-    width: calc(100%/12 * 4);
+    width: calc(100%/ 12 * 4);
 
     /* DEBUG */
-    background-color: red;
+    /* background-color: red; */
     border: 1px dashed;
     height: 500px;
 }
@@ -116,7 +157,7 @@ body {
     /* DEBUG */
     background-color: orange;
     border: 2px dashed black;
-    height: 200px;
+    width: 100%;
 }
 
 .partner {
@@ -196,9 +237,24 @@ padding: 1rem 0;
      /* DEBUG */
     background-color: rgb(7, 39, 28);
 
-    
- 
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  
+  .grid-content {
+    display: grid;
+    place-items: center;
+    border: 1px solid white;
+  }
+  
+  .center-text {
+    background: #142d4c;
+    flex: 1;
+  }
 
 
 
