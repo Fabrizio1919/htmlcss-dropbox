@@ -145,14 +145,40 @@ ul li {
     /* background-color: red; */
 }
 
+.card-header {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px 0px;
+    margin: 0 10px;
+}
+
+
+.card-body {
+    margin: 0px 10px;
+    border: 1px solid black;
+    padding: 26px 2px;
+}
+
+.btn-plans {
+    margin: 30px 60px;
+    }
+
+    .professional{
+        margin: 42px 35px;
+    }
+
+    .Highlights {
+        margin: 42px 35px;
+    }
+
 
 .col-4 {
     width: calc(100%/ 12 * 4);
 
     /* DEBUG */
     /* background-color: red; */
-    border: 1px dashed;
-    height: 500px;
+   /*  border: 1px dashed; */
+   /*  height: 500px; */
 }
 
 .col-12 {
@@ -264,21 +290,21 @@ padding: 1rem 0;
     
     flex: 1;
      /* DEBUG */
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     
 }
 .text-center {
     flex: 1;
    
      /* DEBUG */
-    background-color: #0061ff;
+   /*  background-color: #0061ff; */
    
 }
 
 .image-right {
    flex: 1;
      /* DEBUG */
-    background-color: rgb(7, 39, 28);
+    /* background-color: rgb(7, 39, 28); */
 
 }
 
@@ -295,10 +321,25 @@ padding: 1rem 0;
   }
   
   .center-text {
-    background: #142d4c;
+/*     background: #142d4c; */
     flex: 1;
   }
 
+  .grid-content img {
+    width: 100px;
+  }
+  
+  .desi-team h2{
+    font-size: 50px;
+  }
+  .desi-team {
+    margin: 30px 35px;
+  }
+
+  .def-team {
+    margin: 55px 40px;
+  }
+  
 
 
 .invitation-drop {
