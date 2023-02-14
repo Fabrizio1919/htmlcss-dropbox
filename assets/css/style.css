@@ -22,6 +22,9 @@ body {
 .flex-wrap {
     flex-wrap: wrap;
 }
+.text-align {
+    text-align: center;
+}
 
 .w-60 {
 width: 60%;
@@ -164,40 +167,82 @@ ul li {
     width: 100%;
     padding: 1rem 0;
     /* DEBUG */
-    background-color: var(--db-btn);
-
+    /* background-color: var(--db-btn);
+ */
 }
+
+.image-partner img {
+    width: 600px;
+}
+
+.text-partner {
+    padding: 100px 0;
+}
+
+.text-partner p {
+    font-size: 17px;
+}
+
+.text-partner h3 {
+    font-size: 27px;
+}
+
+.btn-partner {
+    background-color: var(--db-light);
+    color: var(--db-dark);
+    border: 1px solid black;
+    padding: 5px 5px;
+    margin: 20px 0px;
+}
+
+.operation {
+    padding: 5rem 0;
+}
+
+
+.title-operation {
+    text-align: center;
+}
+ 
+
+.img-operation img {
+    width: 250px;
+}
+
 
 .row-card {
     display: flex;
     flex-wrap: wrap;
     /* DEBUG */
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 
 .col-6 {
     width: calc(100% / 18 * 6);
-    padding: 0.5rem;
+    padding: 1rem;
 
     /* DEBUG */
-    background-color: orange;
-    height: 500px;
-    border: 2px dashed black;
+   /*  background-color: orange; */
+   /*  height: 500px;
+    border: 2px dashed black; */
 }
 
 .team {
-    padding: 1rem 0;
+    margin: 10rem 0;
      /* DEBUG */
-    background-color: #b4d0e7;
+    /* background-color: #b4d0e7; */
 }
 
+.title-team h2 {
+    font-size: 56px;
+}
 
 .teams {
     width: 100%;
     /* DEBUG */
-    background-color: red;
-    height: 500px;
+    /* background-color: red;
+    height: 500px; */
 }
 
 .teams-group {
@@ -208,13 +253,11 @@ background-color: rgb(127, 138, 255);
 padding: 1rem 0;
 }
 
-
-
 .row-teams {
     width: 100%;
      /* DEBUG */
     height: 400px;
-    background-color: rgb(128, 0, 51);
+    /* background-color: rgb(128, 0, 51); */
 }
 
 .image-left {
@@ -272,19 +315,43 @@ padding: 1rem 0;
     background-color: green;
 }
 
+.invited {
+    margin-top: 55px;
+}
+
+.invited h4 {
+    font-size: 45px;
+}
+
+
+.btn-reg {
+    margin-top: 120px;
+}
+
+.btn-register {
+    border: none;
+    padding: 7px 70px;
+}
+
+
+
 
 .requests {
-    padding: 1rem 0;
+    padding: 8rem 0;
     width: 100%;
     /* DEBUG */
     height: 500px;
-    background-color: var(--db-palet);
+    background-color: var();
 }
 
 .frequent-questions {
     /* DEBUG */
     height: 450px;
-    background-color: rgb(3, 28, 3);
+    display: grid;
+/*     background-color: rgb(3, 28, 3); */
+}
+.frequent-questions h2 {
+    margin: 0 35px;
 }
 
 
@@ -314,7 +381,7 @@ padding: 1rem 0;
 .top {
     /* DEBUG */
     height: 400px;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
 }
 
 
@@ -322,7 +389,8 @@ padding: 1rem 0;
     width: calc(100% /4);
     /* DEBUG */
     border: 2px dashed black;
-    background-color: #0061ff;
+    /* background-color: #0061ff; */
     list-style: none;
+    color: var(--db-light);
 
 }
