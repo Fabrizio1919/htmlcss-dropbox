@@ -426,7 +426,7 @@ width: 100%;
 .frequent-questions {
     /* DEBUG */
     height: 450px;
-    display: grid;
+  /*   display: grid; */
 /*     background-color: rgb(3, 28, 3); */
 }
 .frequent-questions h2 {
