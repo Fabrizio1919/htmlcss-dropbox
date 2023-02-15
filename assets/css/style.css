@@ -108,6 +108,8 @@ ul li {
 #app-header {
     padding: 0 0,5rem;
     display: flex;
+    position: sticky;
+    top: 0;
     /* DEBUG */
     background-color: var(--db-light);
 }
