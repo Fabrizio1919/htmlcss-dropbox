@@ -106,17 +106,31 @@ ul li {
 /*Header */
 
 #app-header {
-    padding: 0 1rem;
+    padding: 0 0,5rem;
     display: flex;
     /* DEBUG */
     background-color: var(--db-light);
 }
 
+.left-nav ul li {
+    line-height: 60px;
+}
+
+.right-nav ul li {
+    line-height: 60px;
+}
+
+.left-nav img{
+    vertical-align: middle;
+}
+
+
+
 .left-nav {
     width: 50%;
     text-align: left;
     display: flex;
-    padding: 1rem;
+   /*  padding: 1rem; */
     /* DEBUG */
     /* background-color: orange; */
    /*  border: 2px dashed black; */
@@ -138,6 +152,7 @@ ul li {
     width: 50%;
     text-align: right;
     display: flex;
+    justify-content: end;
   /*   padding: 1rem; */
     /* DEBUG */
     /* background-color: orange;
