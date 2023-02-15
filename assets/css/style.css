@@ -115,6 +115,7 @@ ul li {
 .left-nav {
     width: 50%;
     text-align: left;
+    display: flex;
     padding: 1rem;
     /* DEBUG */
     /* background-color: orange; */
@@ -123,20 +124,21 @@ ul li {
 
 .left-nav ul li:hover{
     background-color: lightgrey;
-    text-decoration: underline;
+    border-bottom: 2px solid black;
+   
 }
 
 .right-nav ul li:hover{
     background-color: lightgrey;
-    text-decoration: underline;
+    border-bottom: 2px solid black;
+   
 }
-
-
 
 .right-nav {
     width: 50%;
     text-align: right;
-    padding: 1rem;
+    display: flex;
+  /*   padding: 1rem; */
     /* DEBUG */
     /* background-color: orange;
     border: 2px dashed black; */
@@ -163,6 +165,12 @@ ul li {
    /*  height: 500px;
     background-color: green; */
 }
+
+.arrow-down {
+    padding: 2rem 0;
+}
+
+
 
 .plans {
     width: 100%;
@@ -332,7 +340,7 @@ width: 100%;
 .row-teams {
     width: 100%;
      /* DEBUG */
-    height: 400px;
+    /* height: 400px; */
     /* background-color: rgb(128, 0, 51); */
 }
 
