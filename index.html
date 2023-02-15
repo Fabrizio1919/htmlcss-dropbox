@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&amp;display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -73,28 +76,32 @@
             <div class="container">
                 <div class="mg-bottom">
                     <h2 class="mg-bottom">Trova il piano business che fa per te</h2>
-                    <input class="mg-right" type="radio">Fattura Mensile
-                    <input class="mg-right" type="radio">Fattura Annuale
+                </div>
+                <div class="payment-options">
+                    <input type="radio" name="plans" id="month">
+                    <label for="">Fatturazione mensile</label>
+                    <input type="radio" name="plans" id="year">
+                    <label for="">Fatturazione annule</label>
                 </div>
                 <div class="row d-flex flex-wrap">
                     <div class="col-4">
                         <div class="card">
                             <div class="card-header">
-                                <h5>Singolo</h5>
+                                <h5><i class="fa-solid fa-user"></i>Singolo</h5>
                             </div>
                             <div class="card-body">
                                 <div class="professional">
                                     <h3>Professional</h3>
                                     <p><strong>€ 12,00</strong></p>
-                                    <p>./mese</p>
+                                    <p class="lightgray">./mese</p>
                                 </div>
-                                <ul>
-                                    <li>1 utente</li>
-                                    <li>
+                                <ul class="list-card">
+                                    <li><i class="fa-solid fa-user"></i>1 utente</li>
+                                    <li><i class="fa-solid fa-folder"></i>
                                         5 TB di spazio di
                                         archiviazione sicuro
                                     </li>
-                                    <li>
+                                    <li><i class="fa-solid fa-share-nodes"></i>
                                         Funzioni di
                                         produttività
                                         premium e
@@ -107,11 +114,11 @@
                                 </div>
                                 <div class="Highlights">
                                     <h6>Punti salienti del piano</h6>
-                                    <ul>
-                                        <li>
+                                    <ul class="list-card">
+                                        <li><i class="fa-solid fa-check blu"></i>
                                             Invia il file fino a 100 GB con i Dropbox Trasfert
                                         </li>
-                                        <li>
+                                        <li><i class="fa-solid fa-check blu"></i>
                                             Cartelle offline sui dispositivi mobili
                                         </li>
                                     </ul>
@@ -124,20 +131,20 @@
                     <div class="col-4">
                         <div class="card">
                             <div class="card-header">
-                                <h5>Team</h5>
+                                <h5><i class="fa-solid fa-users"></i>Team</h5>
                             </div>
                             <div class="card-body">
                                 <div class="professional">
                                     <h3>Advanced</h3>
                                     <p><strong>€ 18,00</strong></p>
-                                    <p>./utente/mese</p>
+                                    <p class="lightgray">./utente/mese</p>
                                 </div>
-                                <ul>
-                                    <li>3 o più utenti</li>
-                                    <li>
+                                <ul class="list-card">
+                                    <li><i class="fa-solid fa-user"></i>3 o più utenti</li>
+                                    <li><i class="fa-solid fa-folder"></i>
                                         Tutto lo spazio di cui hai bisogno con il tuo team
                                     </li>
-                                    <li>
+                                    <li><i class="fa-solid fa-share-nodes"></i>
                                         Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo
                                         team</li>
                                 </ul>
@@ -147,20 +154,22 @@
                                 </div>
                                 <div class="Highlights">
                                     <h6>Punti salienti del piano</h6>
-                                    <ul>
-                                        <li>
+                                    <ul class="list-card">
+                                        <li><i class="fa-solid fa-check blu"></i>
                                             Nessun limite di spazio per i file
                                         </li>
-                                        <li>
+                                        <li><i class="fa-solid fa-check blu"></i>
                                             Cartella offline su dispositivi mobili
                                         </li>
-                                        <li>
+                                        <li><i class="fa-solid fa-check blu"></i>
                                             Risparmio del 50% rispetto alle iscrizioni singole
                                         </li>
-                                        <li>
+                                        <li><i class="fa-solid fa-check blu"></i>
                                             Possibilità di inserire nuovi membri del team
                                         </li>
-                                        <li>Gestione dei permessi in base ai ruoli</li>
+                                        <li><i class="fa-solid fa-check blu"></i>
+                                            Gestione dei permessi in base ai ruoli
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -172,19 +181,19 @@
                     <div class="col-4">
                         <div class="card">
                             <div class="card-header">
-                                <h5>Azienda</h5>
+                                <h5><i class="fa-solid fa-building"></i>Azienda</h5>
                             </div>
                             <div class="card-body">
                                 <div class="professional">
                                     <h3>Eternprise</h3>
                                     <p><strong>Contattaci</strong></p>
-                                    <p>-</p>
+                                    <p class="lightgray">-</p>
                                 </div>
-                                <ul>
-                                    <li>10 o più utente</li>
-                                    <li>
+                                <ul class="list-card">
+                                    <li><i class="fa-solid fa-user"></i>10 o più utente</li>
+                                    <li><i class="fa-solid fa-folder"></i>
                                         Soluzioni personalizzabili per la tua azienda
-                                    <li>
+                                    <li><i class="fa-solid fa-share-nodes"></i>
                                         Assistenza personalizzata per aiutare gli amministratori in una gestione su
                                         larga scala</li>
                                 </ul>
@@ -194,14 +203,14 @@
                                 </div>
                                 <div class="Highlights">
                                     <h6>Punti salienti del piano</h6>
-                                    <ul>
-                                        <li>
+                                    <ul class="list-card">
+                                        <li><i class="fa-solid fa-check blu"></i>
                                             Cartelle offline su dispositivi mobili
                                         </li>
-                                        <li>
+                                        <li><i class="fa-solid fa-check blu"></i>
                                             Servizio assistenza 24/h
                                         </li>
-                                        <li>
+                                        <li><i class="fa-solid fa-check blu"></i>
                                             Possibilità di personalizzazione totale
                                         </li>
                                     </ul>
@@ -212,6 +221,26 @@
                     <!-- end plans AZIENDA -->
 
                     <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5><i class="fa-solid fa-building"></i>Team</h5>
+                            </div>
+                            <div class="card-body d-flex">
+                                <div class="w-60">
+                                    <div class="contact">
+                                        <h3>Eternprise</h3>
+                                        <p><strong>Contatta l'ufficio vendite per i prezzi</strong></p>
+                                    </div>
+                                    <div class="solutions">
+                                        <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
+                                    </div>
+                                </div>
+                                <div class="w-40">
+                                    <button class="btn-sm">Contatta l'ufficio vendite</button>
+                                </div>
+                            </div>
+                        </div>
+                        
 
                     </div>
                 </div>
@@ -412,13 +441,15 @@
                     <div class="grid-content topps"><img src="./assets/img/topps.svg" alt=""></div>
                 </div>
                 <div class="text-center">
-                   <div class="desi-team">
-                    <h2>Designit</h2>
-                    <p>a <strong>wipro</strong>company</p>
-                   </div>
-                   <div class="def-team">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora totam, possimus voluptatum, ex earum fugit quae fuga sapiente fugiat facilis modi impedit cupiditate, odit nobis iste optio temporibus molestias magni.</p>
-                   </div>
+                    <div class="desi-team">
+                        <h2>Designit</h2>
+                        <p>a <strong>wipro</strong>company</p>
+                    </div>
+                    <div class="def-team">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora totam, possimus voluptatum,
+                            ex earum fugit quae fuga sapiente fugiat facilis modi impedit cupiditate, odit nobis iste
+                            optio temporibus molestias magni.</p>
+                    </div>
                 </div>
                 <div class="image-right grid">
                     <div class="grid-content designt"><img src="./assets/img/world_bicycle_relief.svg" alt=""></div>
@@ -434,7 +465,7 @@
         <!-- Invitation-drop -->
         <section class="invitation-drop">
             <div class="container">
-               <div class="change-drop d-flex">
+                <div class="change-drop d-flex">
                     <div class="invited w-60">
                         <h4>Porta Dropbox Business nella tua azienda</h4>
                     </div>
@@ -453,13 +484,13 @@
                 <div class="frequent-questions">
                     <h2>Domande frequenti</h2>
                     <ul>
-                        <li>Qual è la dierenza tra Dropbox Business Standard e Dropbox Business Advanced?</li>
+                        <li>Qual è la dierenza tra Dropbox Business Standard e Dropbox Business Advanced?</li>
                     </ul>
                     <ul>
-                        <li>Qual è la dierenza tra Dropbox Business Standard e Dropbox Business Advanced?</li>
+                        <li>Qual è la dierenza tra Dropbox Business Standard e Dropbox Business Advanced?</li>
                     </ul>
                     <ul>
-                        <li>Qual è la dierenza tra Dropbox Business Standard e Dropbox Business Advanced?</li>
+                        <li>Qual è la dierenza tra Dropbox Business Standard e Dropbox Business Advanced?</li>
                     </ul>
                     <ul>
                         <li></li>
@@ -480,7 +511,7 @@
             <div class="container">
                 <div class="top d-flex">
                     <div class="item">
-                        <h5> Community</h5>
+                        <h5>Dropbox</h5>
                         <ul>
                             <li>Applicazione testo</li>
                             <li>Perche Dropbox</li>
@@ -490,7 +521,7 @@
                         </ul>
                     </div>
                     <div class="item">
-                        <h5> Community</h5>
+                        <h5>Prodotti</h5>
                         <ul>
                             <li>Applicazione testo</li>
                             <li>Perche Dropbox</li>
@@ -500,7 +531,7 @@
                         </ul>
                     </div>
                     <div class="item">
-                        <h5> Community</h5>
+                        <h5>Azienda</h5>
                         <ul>
                             <li>Applicazione testo</li>
                             <li>Perche Dropbox</li>
@@ -510,7 +541,7 @@
                         </ul>
                     </div>
                     <div class="item">
-                        <h5> Community</h5>
+                        <h5>Supporto</h5>
                         <ul>
                             <li>Applicazione testo</li>
                             <li>Perche Dropbox</li>
