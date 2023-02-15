@@ -355,7 +355,7 @@ width: 100%;
   .grid-content {
     display: grid;
     place-items: center;
-    border: 1px solid white;
+    /* border: 1px solid white; */
   }
   
   .center-text {
@@ -365,6 +365,7 @@ width: 100%;
 
   .grid-content img {
     width: 100px;
+    filter: invert(1);
   }
   
   .desi-team h2{
@@ -416,21 +417,25 @@ width: 100%;
 
 
 .requests {
-    padding: 8rem 0;
+    padding: 3rem 0;
     width: 100%;
     /* DEBUG */
-    height: 500px;
-    background-color: var();
+    /* height: 500px;
+    background-color: var(); */
 }
 
 .frequent-questions {
     /* DEBUG */
-    height: 450px;
+  /*   height: 450px; */
   /*   display: grid; */
 /*     background-color: rgb(3, 28, 3); */
 }
 .frequent-questions h2 {
     margin: 0 35px;
+}
+.items p {
+    margin: 80px 0;
+    border-bottom: 1px solid black;
 }
 
 
