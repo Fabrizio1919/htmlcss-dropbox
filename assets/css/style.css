@@ -96,7 +96,9 @@ ul li {
     color: lightgray;
 }
 
-
+.justyfy-content {
+    justify-content: space-between;
+}
 
 
 
@@ -117,6 +119,16 @@ ul li {
     /* DEBUG */
     /* background-color: orange; */
    /*  border: 2px dashed black; */
+}
+
+.left-nav ul li:hover{
+    background-color: lightgrey;
+    text-decoration: underline;
+}
+
+.right-nav ul li:hover{
+    background-color: lightgrey;
+    text-decoration: underline;
 }
 
 
@@ -392,7 +404,7 @@ width: 100%;
 .chenge-drop {
     /* DEBUG */
     height: 250px;
-    background-color: green;
+   /*  background-color: green; */
 }
 
 .invited {
@@ -424,6 +436,29 @@ width: 100%;
     background-color: var(); */
 }
 
+.items {
+    flex-direction: column;
+}
+
+
+.rows {
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 2rem 0;
+
+}
+
+
+.col-2 p:last-child  {
+    display: none;
+}
+
+.rows:active .col-2 p:last-child {
+    display: block;
+    
+}
+
+
 .frequent-questions {
     /* DEBUG */
   /*   height: 450px; */
@@ -433,10 +468,10 @@ width: 100%;
 .frequent-questions h2 {
     margin: 0 35px;
 }
-.items p {
+/* .items p {
     margin: 80px 0;
     border-bottom: 1px solid black;
-}
+} */
 
 
 
